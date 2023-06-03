@@ -14,13 +14,16 @@
         *{
             padding: 0;
             margin: 0;
+            zoom: 100%;
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */   
             font-family: 'Odibee Sans', cursive;
         }
         body{
             background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)) ,url(./res/bg.jpg);
             background-position: fixed;
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: cover;
             background-attachment: fixed;
             display: flex;
             justify-content: center;
@@ -31,19 +34,26 @@
         .container{
             padding: 10px;
         }
+        @media screen and (max-width: 600px) {
+            @viewport{
+                width: 600px;
+            }
+    }
     </style>
     <body>
         <div class="container" style="font-family: 'Odibee Sans', sans-serif; font-size: 100px;">
             Happy Birthday Mitzi Joy Pasco
         </div>
         
-        <div class="container" style="text-align:justify;text-align-last:left;color:white;font-family: 'Odibee Sans', sans-serif; font-size: 50px;text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;">
-            Happy happy birthday, wala ako maisip na gift plus im broke so gumawa ako na website hahaha. I don't know what to say other than happy birthday, hope you have a wonderful day. sorry di kita pinatulog until 12am gusto ko kasi ako una or one of the earliest na magsasabi ng hbd. so here i am wishing you a happy birthday
+        <div class="container" style="text-align:justify; text-align-last:left;color:white;font-family: 'Odibee Sans', sans-serif; font-size: 50px;text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;">
+            Happy happy birthday, wala ako maisip na gift plus im broke so gumawa ako na website hahaha. I don't know what to say other than happy birthday, hope you have a wonderful day. sorry di kita pinatulog until 12am gusto ko kasi ako una or one of the earliest na magsasabi ng hbd. so here i am
         </div>
 
         <div class="container" style="color:white;font-family: 'Odibee Sans', sans-serif; font-size: 50px;text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;">
-            Click this link:  <a href="https://youtu.be/dQw4w9WgXcQ"><span>!!SOLO LEVELING OFFICIAL MERCHS!!</span></a>
+            Click this link:  <a href="https://youtu.be/dQw4w9WgXcQ"><span>!!LIST OF GIFTS I WANT TO GIVE IF I HAVE MONEY!!</span></a>
         </div>
-        
+        <div style="height: 1000px;"></div>
+        <div class="container" style="font-size: 10px;color:white;font-family: 'Odibee Sans', sans-serif; font-size: 50px;text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;">kidding aside thank you sa pagiging friend ko, hopefully more gala to come :></div>
+        <div style="height:100px;"></div>
     </body>
 </html>
